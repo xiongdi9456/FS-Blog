@@ -80,7 +80,7 @@ server:
         maxThreads: 12
         minSpareThreads: 3
         accesslog:
-          directory: /home/fullstack/app/fullstack
+          directory: /Users/sheldon/Documents/Projects/SpringProjects/FS-Blog/logs
           pattern: combined
           enabled: true
   session:

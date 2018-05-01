@@ -55,6 +55,9 @@
 
 - 安装 ``MySQL``
 - 安装 ``Gradle``
+- 修改配置路径：
+    修改src/resources/application-dev.yml的tomcat access文件夹
+    配置log4j2.xml中log文件夹路径
 - 在项目目录下运行 ``gradle clean build``，生成的 jar 包位于 ``build/libs`` 目录下，使用 ``java -jar .../fsblog.jar`` 运行
 - 在 ``application-dev.yml`` 中配置数据库用户名和密码，默认为：``username: root password: root``
 - 默认自动创建数据库、数据表并自动导入初始数据，同样在``application-dev.yml``中配置
